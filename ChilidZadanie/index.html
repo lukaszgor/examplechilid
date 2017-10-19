@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie</title>
+    <link href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <section class="container-fluid">
+
+<!--/////up blue theme/////////////////////-->
+        <div class="upblue">
+            <div id="margbotton"></div>
+<!--main container-->
+            <div class="container" id="main">
+<!--  ////Share-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12 col-sm-12 text-right"> <a href="#" onclick="myFunction()" class="popup"><i class="fa fa-share-square-o" aria-hidden="true"></i><span class="popuptext" id="myPopup">ADRES <br>&nbsp;example.pl&nbsp; </span></a></div>
+                    </div>
+                </div>
+<!--    end share-->
+<!--HEADING-->
+                <div class="container front">
+                    <div class="row">
+                        <div class="col-md-2 col-xs-12 col-sm-2 text-left">
+                            <div class="foto"></div>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-sm-3 text-left name">
+                            <span>Harvey Spencer</span><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <p>New York USA</p>
+                        </div>
+
+                    </div>
+                </div>
+<!--END HEADING-->
+<!--end main container-->
+            </div>
+<!--follow and other-->
+            <div class="container" id="followcontainer">
+                <div class="row">
+                    <div class="col-md-3 col-xs-4 col-sm-3 text-center squer">
+                        <p class="number likes">0</p>
+                        <p>Likes</p>
+                    </div>
+                    <div class="col-md-3 col-xs-4 col-sm-3 text-center squer">
+                        <p class="number">123</p>
+                        <p>Following</p>
+                    </div>
+                    <div class="col-md-3 col-xs-4 col-sm-3 text-center squer">
+                        <p class="number followersy">0</p>
+                        <p>Followers</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 col-sm-3 text-center">
+                        <button class="follow">FOLLOW</button>
+                    </div>
+                </div>
+            </div>
+ <!--end follow and other-->
+<!--//////------------------------------/end of up blue theme-->
+        </div>
+
+    </section>
+<!--HIDECOMMENTS-->
+    <div class="container margtp">
+
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 text-left">
+                <p id="hide" class="hide1">Hide/show comments</p>
+            </div>
+        </div>
+
+    </div>
+
+<!--end HIDECOMMENTS-->
+
+<!--////////////////////////////////////COMMENTY -->
+    <div class="container hide-elements">
+        <div class="row">
+
+<!--        comment1-->
+
+            <div class="col-sm-8">
+                <img src="spencer2.jpg" alt="spencer" class="img-circle avatar newawatar">
+                <span class="youproftex">Mario Bross</span>
+                <p class="date">10.04.2016</p>
+                <div class="pull-left image"></div>
+                <div class="post-description text-space" onload="load()"></div>
+                <div class="space"></div>
+            </div>
+
+
+
+<!--        end comment1-->
+<!--        comment2-->
+
+            <div class="col-sm-8">
+                <img src="spencer2.jpg" alt="spencer" class="img-circle avatar newawatar">
+                <span class="youproftex">Mario Bross</span>
+                <p class="date">10.04.2016</p>
+                <div class="pull-left image"></div>
+                <div class="post-description text-space"></div>
+                <div class="space"></div>
+            </div>
+
+
+<!--        end comment2-->
+<!--        comment3-->
+
+            <div class="col-sm-8">
+                <img src="spencer2.jpg" alt="spencer" class="img-circle avatar newawatar">
+                <span class="youproftex">Mario Bross</span>
+                <p class="date">10.04.2016</p>
+                <div class="pull-left image"></div>
+                <div class="post-description text-space"></div>
+                <div class="space"></div>
+            </div>
+
+
+ <!--        end comment3-->
+
+
+
+
+
+        </div>
+<!--    your comment-->
+
+        <div id="your" class="col-sm-8"></div>
+
+<!--   end your comment-->
+
+    </div>
+<!--//////////////////END//////////////////COMMENTY -->
+<!--add comment-->
+
+
+    <div class="container add-comment-container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 text-left">
+                <input type="text" placeholder="Add a comment" class="input-add-commnet" value="" id="com">
+
+                <button id="add">ADD</button>
+
+            </div>
+        </div>
+    </div>
+
+
+<!--end add comment-->
+
+
+
+
+<!--    Script//////////////////////////////////////////////////////////////-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--Skompresowany plik BootstrapJavaScriptdodany lokalnie -->
+    <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="file.json"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
