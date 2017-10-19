@@ -26,49 +26,25 @@ function myFunction() {
     popup.classList.toggle("show");
 }
 
-/////////HIDE 
-//
-//    $(".hide1").click(function () {
-//    $(".hide-elements").fadeOut("slow");
-//    $(this).addClass("show");
-//    $(this).removeClass("hide1");
-//    $(".show").text("Display  comments");
-//
-//
-//
-//     
-//});
-//        
-//         $(".show").click(function () {
-//        $(".hide-elements").fadeIn("slow");
-//        $(this).addClass("hide1");
-//        $(this).removeClass("show");
-//        $(".hide1").text("Hide comments");
-//   
-//
-//      
-//         
-//    });
+/////////HIDE comments
+
 
 $("#hide").click(function () {
    
     $('.hide-elements').toggle(
         function () {
             $(".hide1").fadeOut("slow");
-            
-            
- 
+         
         },
         function () {
             $('.show').fadeIn('slow');
-          
-   
+         
         });
      
     });
 
 
-//////End Hide
+//////End Hide comments
 
 ////DISPLAY ADD COMMENT??/////////////////
 
