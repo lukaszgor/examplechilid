@@ -108,4 +108,9 @@ function load() {
 
 }
 load();
+/////Clear input 
+$('#com').focus(
+    function(){
+        $(this).val('');
+    });
 
