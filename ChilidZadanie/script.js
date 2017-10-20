@@ -22,7 +22,7 @@ $(function () {
 });
 
 function myFunction() {
-    var popup = document.getElementById("myPopup");
+    var popup = document.getElementById("mypopup");
     popup.classList.toggle("show");
 }
 
@@ -74,7 +74,7 @@ $("#add").click(function () {
     })
     var date = $('<p />', {
         "class": 'date',
-        "text": month + "." + day + "." + year,
+        "text": day + "." + month + "." + year,
     })
 
     var space = $('<div />', {
@@ -113,4 +113,4 @@ $('#com').focus(
     function(){
         $(this).val('');
     });
-
+////////////////////////////
