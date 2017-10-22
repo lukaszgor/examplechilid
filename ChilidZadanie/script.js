@@ -105,6 +105,9 @@ var year = currentTime.getFullYear()
 function load() {
     var mydata = JSON.parse(example);
     $(".post-description").text(mydata[0].lorem);
+    $(".numberfollowing").text(mydata[0].following);
+    $(".youproftex").text(mydata[0].mario);
+    $(".date").text(mydata[0].date);
 
 }
 load();
